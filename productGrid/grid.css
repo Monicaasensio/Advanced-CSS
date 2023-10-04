@@ -1,0 +1,71 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+header {
+    background-color: rgb(92, 0, 0);
+    color: antiquewhite;
+    display: block;
+    height: 4rem;
+    margin: 0;
+    padding: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+table {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+
+table, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    border-color: brown;
+  }
+
+td a {
+  text-decoration: none;
+  color: brown;
+  display: block;
+  margin-bottom: 1rem;
+  }
+
+td p {
+  margin: auto;
+}
+
+th {
+    font-size: 2.2rem;
+    background-color: tan;
+}
+
+img {
+    max-width: 120px;
+    max-height: 120px;
+    display: block;
+    margin: auto;
+}
+
+.nav__btn {
+  display: flex;
+  justify-content: space-between;
+
+}
+.nav__btn button {
+  padding: 1rem;
+  margin: 1.5rem;
+}
+

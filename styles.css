@@ -1,0 +1,25 @@
+h1 {
+    font-size: 5rem;
+    display: block;
+    text-align: center;
+    background-color: rgb(92, 0, 0);
+    color: antiquewhite;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li {
+    display: inline-block;
+    padding: 2rem;
+    cursor: pointer;
+    font-size: 3rem;
+}
+
+ul a {
+    text-decoration: none;
+ 
+}

@@ -1,0 +1,83 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+header {
+    background-color: rgb(92, 0, 0);
+    color: antiquewhite;
+    display: block;
+    height: 4rem;
+    margin: 0;
+    padding: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.fullflag {
+    display: flex;
+    height: 40rem;
+    width: 70rem;
+    margin: auto;
+}
+.stars {
+    flex: 1;
+    width: 20rem;
+    /* height: 40rem; */
+    border: 1px solid black;
+    border-right: none;
+    border-collapse: collapse;
+}
+
+.stripes {
+    flex: 2;
+    width: 30rem;
+    height: 40rem;
+    border: 1px solid black;
+    border-left: none;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.stripe-red {
+    background-color: red;
+    height: 2rem;
+}
+
+.stripe-white {
+    background-color: white;
+    height: 2rem;
+}
+
+img {
+    width: auto;
+    height: 341px;
+}
+
+.table__data-img {
+    padding: 0px;
+}
+
+.star__table-row {
+    height: 49px;
+}
+
+.nav__btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__btn button {
+    padding: 1rem;
+    margin: 1.5rem;
+}

@@ -1,0 +1,57 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(92, 0, 0);
+    color: antiquewhite;
+    display: block;
+    width: 100%;
+    height: 4rem;
+    margin-bottom: 2rem;
+    padding: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.blk{
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
+
+.tbl {
+    width: 50rem;
+    height: 50rem;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.tbl div {
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+.nav__btn {
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  .nav__btn button {
+    padding: 1rem;
+    margin: 1.5rem;
+  }
