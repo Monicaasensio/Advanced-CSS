@@ -25,7 +25,11 @@ header a {
     color: antiquewhite;
 }
 
-.blk{
+body {
+    margin: 0px;
+}
+
+.blk {
     background-color: black;
 }
 
@@ -54,4 +58,25 @@ header a {
   .nav__btn button {
     padding: 1rem;
     margin: 1.5rem;
+  }
+
+  @media only screen and (max-width: 390px) {
+    .tbl, .tbl div {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+  }
+
+  @media only screen and (min-width: 391px) and (max-width: 640px) {
+    .tbl, .tbl div {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+  }
+
+  @media only screen and (min-width: 641px) {
+    .tbl, .tbl div {
+        width: 5rem;
+        height: 5rem;
+    }
   }

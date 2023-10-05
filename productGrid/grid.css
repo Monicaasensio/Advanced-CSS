@@ -11,7 +11,8 @@ header {
     background-color: rgb(92, 0, 0);
     color: antiquewhite;
     display: block;
-    height: 4rem;
+    height: 8rem;
+    width: 100%;
     margin: 0;
     padding: 2.5rem;
     display: flex;
@@ -22,19 +23,32 @@ header {
 header a {
   text-decoration: none;
   color: antiquewhite;
+  font-size: 1.2rem;
 }
 
-table {
-  width: 70%;
-  height: 70%;
+body {
+  margin: 0px;
+}
+
+.grid__table {
+  width: 60%;
   margin: auto;
 }
 
+table {
+  width: 800px;
+  margin-top: 30px;
+  border: 3px solid brown;
+}
+
 table, td {
-    border: 3px solid black;
+    border: 3px solid brown;
     border-collapse: collapse;
-    border-color: brown;
-  }
+    text-align: left;
+}
+td{
+  padding: 8px;
+}
 
 td a {
   text-decoration: none;
@@ -48,15 +62,16 @@ td p {
 }
 
 th {
-    font-size: 2.2rem;
+    font-size: 3.2rem;
     background-color: tan;
+    text-align: center;
 }
 
 img {
     max-width: 120px;
-    max-height: 120px;
+    height: 120px;
     display: block;
-    margin: auto;
+    margin: 20px;
 }
 
 .nav__btn {
@@ -69,3 +84,13 @@ img {
   margin: 1.5rem;
 }
 
+@media only screen and (max-width: 640px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+    width: 500px;
+  }
+  .grid__table {
+    margin-left: 20px;
+  }
+}
+  
